@@ -3,9 +3,9 @@
   "Name": "Altazion Office",
   "Sources": [
     {
-      "Name": "Invoices",
-      "OpenApiUrl": "https://erp.office.demo.altazion.com/swagger/v3/swagger.json",
-      "OpenApiCategories": [ "Customer invoices", "Customer invoicable elements", "Customer credit notes" ]
+      "Name": "Taxes",
+      "OpenApiUrl": "https://app.office.altazion.com/swagger/v3/swagger.json",
+      "OpenApiCategories": [ "Taxes", "VAT" ]
     }
   ]
 }
