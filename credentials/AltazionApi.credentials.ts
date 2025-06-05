@@ -5,9 +5,9 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class ExampleCredentialsApi implements ICredentialType {
-	name = 'exampleCredentialsApi';
-	displayName = 'Example Credentials API';
+export class AltazionCredentials implements ICredentialType {
+	name = 'altazionApi';
+	displayName = 'Altazion Credentials';
 	properties: INodeProperties[] = [
 		// The credentials to get from user and save encrypted.
 		// Properties can be defined exactly in the same way
@@ -39,18 +39,14 @@ export class ExampleCredentialsApi implements ICredentialType {
 				username: '={{ $credentials.username }}',
 				password: '={{ $credentials.password }}',
 			},
-			qs: {
-				// Send this as part of the query string
-				n8n: 'rocks',
-			},
 		},
 	};
 
 	// The block below tells how this credential can be tested
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://example.com/',
-			url: '',
+			baseURL: 'https://app.office.altazion.com/',
+			url: '/main/settings/me',
 		},
 	};
 }

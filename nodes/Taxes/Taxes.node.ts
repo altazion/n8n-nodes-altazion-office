@@ -16,8 +16,8 @@ export class Taxes implements INodeType {
 		defaults: {
 			name: 'Altazion Taxes',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [],
+		outputs: [],
 		credentials: [
 			{
 				name: 'altazionApi',
