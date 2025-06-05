@@ -1,0 +1,20 @@
+{
+  "node": "n8n-nodes-altazion-office.taxes",
+  "nodeVersion": "25.504.4039.0",
+  "codexVersion": "25.504.4039.0",
+  "categories": [
+    "Sales"
+  ],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://aide.altazion.com/en-us/no-code/n8n/credentials.md"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://aide.altazion.com/en-us/no-code/n8n/Taxes.md"
+      }
+    ]
+  }
+}
